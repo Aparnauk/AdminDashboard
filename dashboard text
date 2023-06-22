@@ -1,0 +1,53 @@
+
+---------------DASH BOARD-----------------
+
+Workflow of Angular project
+
+Steps-------------
+1. Creation of new project--------ng new admindashboard(project name)
+
+2. Run project: ng searve/ ng s (in project folder)
+
+3. Install/ import/ add third party libraries to complete project
+
+   * Install angular material : ng add @angular/material
+     > custome theme
+     > typology
+     > animation 
+
+   * To use any components from material
+     > Copy the api for particular component and paste it on appmodule.test
+
+4. Delete all contents appcomponent.html
+
+5. Check third party libraries working in project or not
+   > if not import prebuild theme t your project style.css file
+
+6. Header
+   Footer
+   Aside-slidebar
+   Dashboard-inside
+   Card
+   Area-chart
+   Table
+   Pichart
+
+7. Design new components
+   employees
+   gallery 
+   contact
+   leads
+
+8. set up path for components and update
+   dash board
+   employees
+   gallery
+   contact
+   leads
+
+9. Install Heighchart Using ---------------   npm install highcharts-angular --save
+   9.1  Import Heighchart -----------------   import { HighchartsChartModule } from 'highcharts-angular';
+   9.2  Import heighchart properties(to get properties of highchart)
+                                 ----------   npm install highcharts --save
+   9.3  Import heighchart in component where we will display chart
+                                 ----------   import * as Highcharts from 'highcharts';
